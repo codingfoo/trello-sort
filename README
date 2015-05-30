@@ -2,3 +2,6 @@ Sorting application for Trello
 
 Uses
 https://github.com/jeremytregunna/ruby-trello
+
+Url with correct scope for app:
+https://trello.com/1/authorize?key=replacewithkey&name=Sorter&expiration=never&response_type=token&scope=read,write
