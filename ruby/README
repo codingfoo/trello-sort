@@ -1,5 +1,8 @@
 Sorting application for Trello
 
+Usage
+./trello_sort.rb <user email>
+
 Uses
 https://github.com/jeremytregunna/ruby-trello
 

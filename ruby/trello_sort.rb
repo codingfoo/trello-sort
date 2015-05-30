@@ -47,14 +47,9 @@ results = cards.sort do |a,b|
 end
 
 puts 'Sorted Cards:'
-pp results
 
 results.reverse.each_with_index do |card, index|
-  puts
-  p "Before:"
-  p card
+  puts "#{card.name}"
   card.pos = index
   card.save
-  p "after"
-  p card
 end
